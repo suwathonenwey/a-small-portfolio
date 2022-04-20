@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Anek+Odia:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Anek Odia', sans-serif;
+  font-family: 'Akshar', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffe8d6;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffe8d6;
+}
+
+.home {
+  height: 100vh;
+  padding: 30px 8%;
+  background: -webkit-gradient(linear, left top, right top, from(#b7b7a4), to(#6b705c));
+  background: linear-gradient(90deg, #b7b7a4, #6b705c);
+  position: relative;
+}
+
+.home nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.home .logo {
+  font-size: 3.5rem;
+  cursor: pointer;
+  color: #ffe8d6;
+  font-family: 'Anek Odia', sans-serif;
+}
+
+.home ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.home ul li {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.home ul li a {
+  color: #ffe8d6;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+}
+
+.home .contact-btn {
+  background: transparent;
+  border: none;
+  padding: 20px 25px;
+  color: #ffe8d6;
+  border-radius: 35px;
+  text-transform: uppercase;
+  border: 1px solid #ffe8d6;
+}
+
+.home .intro-section {
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+}
+
+.home .intro-section .intro-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.home .intro-section .name {
+  font-size: 4.5rem;
+  color: #ffe8d6;
+  font-family: 'Anek Odia', sans-serif;
+}
+
+.home .intro-section .description {
+  font-family: 'Akshar', sans-serif;
+  font-size: 25px;
+  color: #6b705c;
+}
+
+.home .scroll-btn {
+  position: absolute;
+  bottom: 100px;
+  text-decoration: none;
+  color: #ffe8d6;
+}
+
+.home .scroll-btn i {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=all.css.map */
